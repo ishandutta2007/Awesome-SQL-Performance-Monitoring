@@ -20,35 +20,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 ## SaaS/Hosted Platforms
-- **[pganalyze](https://pganalyze.com/)**  
-  Deep PostgreSQL-focused monitoring with query analysis, Index Advisor, VACUUM Advisor, auto_explain integration, and log correlation.
 
-- **[EverSQL](https://www.eversql.com/)**  
-  Automated SQL query optimization and indexing recommendations (often used alongside broader monitoring platforms).
-
-- **[SolarWinds Database Performance Analyzer (DPA)](https://www.solarwinds.com/database-performance-analyzer)**  
-  Wait-time based analysis across SQL Server, Oracle, PostgreSQL, and other platforms with historical trends and tuning guidance.
-
-- **[Redgate SQL Monitor](https://www.red-gate.com/products/sql-monitor/)**  
-  Estate-wide monitoring for SQL Server (and related) with strong plan-regression detection, blocking insight, and DBA-centric UX.
-
-- **[Quest Foglight](https://www.quest.com/products/foglight/)**  
-  Database and infrastructure performance monitoring with diagnostics for SQL Server and other platforms.
-
-- **[Datadog Database Monitoring](https://www.datadoghq.com/product/database-monitoring/)**  
-  Query metrics, explain plans, and wait analysis correlated with APM traces, infrastructure, and logs in the Datadog platform.
-
-- **[New Relic Database Monitoring](https://newrelic.com/)**  
-  Database query performance visibility linked to application traces and full-stack observability.
-
-- **[DBmarlin](https://www.dbmarlin.com/)**  
-  Cross-platform database performance monitoring with wait-based analysis and historical comparison.
-
-- **[SQL Diagnostic Manager (Idera)](https://www.idera.com/)**  
-  SQL Server monitoring with alerting, diagnostics, and performance analysis for DBA teams.
-
-- **[Other commercial / cloud-native options](https://github.com/)**  
-  Cloud provider consoles (AWS Performance Insights, Azure, GCP) and additional vendor tools often used alongside the platforms above.
+| Product | Description | Starting Pricing | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[pganalyze](https://pganalyze.com/)** | Deep PostgreSQL-focused monitoring with query analysis, Index Advisor, VACUUM Advisor, auto_explain integration, and log correlation. | $149/month (Production tier, covers 1 database server) | 14-day free trial with full feature access and unlimited query volume during evaluation; no permanent free tier. |
+| **[EverSQL](https://www.eversql.com/)** | Automated SQL query optimization, AI indexing recommendations, and schema/cost insights for PostgreSQL & MySQL. | Free tier available; paid plans / integrated Aiven AI Database Optimizer start at $29/month | Free forever tier includes web-based AI query optimizer & indexing recommendations (up to 5 query optimizations/month with basic performance sensor). |
+| **[SolarWinds Database Performance Analyzer (DPA)](https://www.solarwinds.com/database-performance-analyzer)** | Wait-time based analysis across SQL Server, Oracle, PostgreSQL, and other engines with historical trends and tuning guidance. | $1,195/year subscription (or $1,699 perpetual license per monitored database instance) | 14-day free trial with full functionality and unrestricted query monitoring across supported databases; no credit card required. |
+| **[Redgate SQL Monitor](https://www.red-gate.com/products/sql-monitor/)** | Estate-wide monitoring for SQL Server with plan-regression detection, blocking analysis, and DBA-centric UX. | $1,233/server/year (Standard edition, 1–4 servers tier) | 14-day free trial offering unrestricted access to all monitoring, alerting, and diagnostics features across your test servers. |
+| **[Quest Foglight](https://www.quest.com/products/foglight/)** | Cross-platform database and infrastructure performance monitoring with deep diagnostics and workload analytics. | $499/year (entry module) or ~$1,000/instance for standard database cartridges | 30-day free trial with full platform access and diagnostic cartridges across test database instances with trial support. |
+| **[Datadog Database Monitoring](https://www.datadoghq.com/product/database-monitoring/)** | Query metrics, explain plans, and wait analysis correlated with APM traces, host infrastructure, and logs. | $70/database host/month (billed annually, includes 200 normalized queries) or $84/host on-demand | 14-day free trial with full platform access (Infrastructure Free tier covers up to 5 hosts with 1-day metric retention; DBM features require trial/paid tier). |
+| **[New Relic Database Monitoring](https://newrelic.com/)** | Database query performance visibility linked to application traces and full-stack observability. | $0.40/GB for data ingested beyond free tier; Standard user seats start at $10/month (1st user) and $99/user/month | Free forever plan provides 100 GB/month data ingestion, 1 full-platform user, and unlimited basic users with full APM & DB query visibility. |
+| **[DBmarlin](https://www.dbmarlin.com/)** | Cross-platform database performance monitoring with wait-based analysis, explain plans, and historical comparison. | £999/year (~$1,270/year) per licence for Premium tier (unlimited instances scalable) | Free forever Starter tier includes 1 full database license forever, unlimited users, wait state analysis, explain plans, and AI co-pilot; no credit card required. |
+| **[SQL Diagnostic Manager (Idera)](https://www.idera.com/)** | SQL Server monitoring with real-time alerting, workload analysis, index defrag, and diagnostic recommendations. | $1,247/monitored instance/year (Standard base subscription; Pro tier at $1,348/instance/year) | 14-day free trial with full unrestricted access to SQL Diagnostic Manager features across test SQL Server instances. |
 
 ## Open-Source GitHub Projects
 - **[Percona Monitoring and Management (PMM)](https://github.com/percona/pmm)**  
